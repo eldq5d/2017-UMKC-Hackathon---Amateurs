@@ -12,38 +12,29 @@ Yachen Zhao,
 Yuxi Mao,
 Emma Davis
 
-<strong>Problem to be solved:</strong>
 
-UMKC need a tool that will manage the 1,500+ documents collected and used to support the university’s Higher Learning Commission Accreditation Reaffirmation process. Help us keep UMKC accredited!
+<strong>Description:</strong>
 
-<strong>Application Specifications:</strong>
 
-There are two main interactions for the tool.
+Our application is composed of three parts:
 
-<strong>Document Submission:</strong>
 
-A form that will allow UMKC committee members to submit documents. It should be able to handle different types of documents, such as text, doc, pdf, image, and spreadsheet. UMKC committee members should also be able to provide descriptive information that includes department, document name, document year, HLC category, justification, and submitter.
+1. The first part of the application is a webpage form where UMKC committee members can submit their documents for the HLC accredidation process. They will input their name, the department name, the document year, the HLC category, a brief justification statement, and will be able to upload the desired document. This form accepts many different types of documents inlcuding text, doc, pdf, images, and spreadsheets.
 
-Upon submission, the tool will do the following:
 
-a. Programmatically rename the file to department_documentname_year.
+2. The second part of the application is a database that stores the submissions. During the submission process, the file will be renamed to departmen_documentname_year and will be assigned a unique document number when saved.
 
-b. Save the file to the appropriate HLC category.
 
-c. Generate a unique doc # and log it and the form metadata into an accessible table.
+3. The third part of the application is the final table which will display all the submissions. This table will be sortable by different categories such as submitter name, department, HLC category, etc.
 
-d. Organize the documents based on different categories such as submitter, academic unit or department, HLC category, type of document, etc.
 
-<strong>Document Retrieval:</strong>
+<strong>BONUS - if we have time</strong>
 
-Provide an interface for UMKC committee members to search for or browse submitted documents.
 
-a. Allow members to browse all documents by the department, HLC category, etc.
+3a. Provide a search box to allow members to search for documents by keywords in the department or document name. Ideally also provide full-text document searching.
 
-b. Provide a search box to allow members to search for documents by keywords in the department or document name. Ideally also provide full-text document searching.
 
-c. Members would be able to access and open the file within the browse/search results.
+3b. Members would be able to access and open the file within the browse/search results.
 
-<strong>Document taxonomies:</strong>
 
-The tool will need to control values for department and HLC category and related assumed practices. Admins will need to be able to maintain value lists for those fields. Bonus points for analytics functionality (# documents by department, category, and year).
+3c. The tool will need to control values for department and HLC category and related assumed practices. Admins will need to be able to maintain value lists for those fields. Bonus points for analytics functionality (# documents by department, category, and year).
