@@ -37,6 +37,7 @@ d. Organize the documents based on different categories such as submitter, acade
 <strong>Document Retrieval:</strong>
 
 Provide an interface for UMKC committee members to search for or browse submitted documents.
+
 a. Allow members to browse all documents by the department, HLC category, etc.
 
 b. Provide a search box to allow members to search for documents by keywords in the department or document name. Ideally also provide full-text document searching.
