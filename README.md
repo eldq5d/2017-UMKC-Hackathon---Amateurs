@@ -22,10 +22,16 @@ Our application is composed of three parts:
 1. The first part of the application is a webpage form where UMKC committee members can submit their documents for the HLC accredidation process. They will input their name, the department name, the document year, the HLC category, a brief justification statement, and will be able to upload the desired document. This form accepts many different types of documents inlcuding text, doc, pdf, images, and spreadsheets.
 
 
+You can view this page here: [INSERT URL]
+
+
 2. The second part of the application is a database that stores the submissions. During the submission process, the file will be renamed to departmen_documentname_year and will be assigned a unique document number when saved.
 
 
 3. The third part of the application is the final table which will display all the submissions. This table will be sortable by different categories such as submitter name, department, HLC category, etc.
+
+
+You can view this page here: [INSERT URL]
 
 
 <strong>BONUS - if we have time</strong>
