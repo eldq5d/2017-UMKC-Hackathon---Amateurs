@@ -14,34 +14,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="298">
               <caret line="62" column="46" lean-forward="false" selection-start-line="62" selection-start-column="46" selection-end-line="62" selection-end-column="46" />
               <folding>
                 <element signature="n#style#0;n#label#0;n#p#6;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#4233#4239#0" expanded="true" />
+                <element signature="e#4246#4252#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="files.show.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../argumentwriter3/files.show.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4789">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="55" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2.html">
+      <file leaf-file-name="files.show.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/files.show.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-3150">
-              <caret line="50" column="35" lean-forward="true" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+              <caret line="50" column="35" lean-forward="false" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -66,6 +56,7 @@
         <option value="$PROJECT_DIR$/show.html" />
         <option value="$PROJECT_DIR$/1.html" />
         <option value="$PROJECT_DIR$/2.html" />
+        <option value="$PROJECT_DIR$/files.show.html" />
       </list>
     </option>
   </component>
@@ -75,7 +66,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-16" />
     <option name="y" value="-16" />
     <option name="width" value="1549" />
@@ -152,15 +143,15 @@
       <workItem from="1510438791799" duration="1179000" />
       <workItem from="1510516143158" duration="7489000" />
       <workItem from="1510524755364" duration="14000" />
-      <workItem from="1510525033233" duration="348000" />
+      <workItem from="1510525033233" duration="496000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18784000" />
+    <option name="totallyTimeSpent" value="18932000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-16" y="-16" width="3872" height="2092" extended-state="7" />
+    <frame x="-16" y="-16" width="3872" height="2092" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11319261" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -291,13 +282,13 @@
     <entry file="file://$PROJECT_DIR$/big.jpg" />
     <entry file="file://$PROJECT_DIR$/readme.txt" />
     <entry file="file://$PROJECT_DIR$/s.jpg" />
-    <entry file="file://$PROJECT_DIR$/1.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="62" column="46" lean-forward="false" selection-start-line="62" selection-start-column="46" selection-end-line="62" selection-end-column="46" />
           <folding>
             <element signature="n#style#0;n#label#0;n#p#6;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#4233#4239#0" expanded="true" />
+            <element signature="e#4246#4252#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -318,10 +309,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2.html">
+    <entry file="file://$PROJECT_DIR$/files.show.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3150">
-          <caret line="50" column="35" lean-forward="true" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+          <caret line="50" column="35" lean-forward="false" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
