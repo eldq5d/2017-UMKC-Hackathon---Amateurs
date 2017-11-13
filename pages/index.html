@@ -98,8 +98,8 @@
               <input type="file" name="userfile"/>
             </p>
             <p>
-              <label for="Justification" style="display:none;">Justification</label>
-              <textarea name="comment" id="Justification" cols="100%" rows="10"></textarea>
+              <label for="justification" style="display:none;">Justification</label>
+              <textarea name="justification" id="justification" cols="100%" rows="10"></textarea>
             </p>
             <p>
               <input name="submit" type="submit" id="submit" value="Upload" />
@@ -125,8 +125,8 @@
     <div id="footer" class="clear">
       <!-- ####################################################################################################### -->
       <div class="fl_left clear">
-        <div class="fl_left center"><img src="images/1.jpg" alt="" /><br />
-          <a href="#">Find Us With Google Maps &raquo;</a></div>
+        <div class="fl_left center"><a href="https://www.umkc.edu/" ><img src="images/1.jpg" alt="" /></a><br />
+          <a href="https://www.google.com/maps/place/University+of+Missouri-Kansas+City/@39.0335539,-94.5760259,15z/data=!4m5!3m4!1s0x0:0x93f042636b4015c8!8m2!3d39.0335539!4d-94.5760259">Find Us With Google Maps &raquo;</a></div>
         <address>
           University of Missouri-Kansas City<br/>
           5100 Rockhill Rd<br />
@@ -141,10 +141,10 @@
         <div id="social" class="clear">
           <p>Stay Up to Date With Whats Happening</p>
           <ul>
-            <li><a style="background-position:0 0;" href="#">Twitter</a></li>
-            <li><a style="background-position:-72px 0;" href="#">LinkedIn</a></li>
-            <li><a style="background-position:-142px 0;" href="#">Facebook</a></li>
-            <li><a style="background-position:-212px 0;" href="#">Flickr</a></li>
+            <li><a style="background-position:0 0;" href="https://twitter.com/UMKansasCity?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a></li>
+            <li><a style="background-position:-72px 0;" href="https://www.linkedin.com/edu/university-of-missouri-kansas-city-18723">LinkedIn</a></li>
+            <li><a style="background-position:-142px 0;" href="https://www.facebook.com/UMKansasCity/">Facebook</a></li>
+            <li><a style="background-position:-212px 0;" href="https://www.flickr.com/photos/umkc/">Flickr</a></li>
             <li><a style="background-position:-282px 0;" href="#">RSS</a></li>
           </ul>
         </div>

@@ -1,59 +1,3 @@
-<?php
-require_once('connect.php');
-if(($_GET['type']=0)||(empty($_GET['type']))){
-    echo 1;
-    if(empty($_GET['key'])){
-        $sql = "select * from file";
-        echo 2;
-    }else{
-        echo $_GET['type'];
-        $keyword=$_GET['key'];
-        $sql = "select * from file where filename like '%$keyword%' or departmentname like '%$keyword%' or HLC like '%$keyword%'";
-    }
-}else if($_GET['type']=1){
-    if(empty($_GET['key'])){
-        $sql = "select * from file order by FK_studentid";
-        echo 4;
-    }else{
-        //need to be fixed
-        echo 5;
-        $keyword=$_GET['key'];
-        $sql = "select * from file where filename like '%$keyword%' or departmentname like '%$keyword%' or HLC like '%$keyword%'";
-    }
-}else if($_GET['type']=2){
-    if(empty($_GET['key'])){
-        $sql = "select * from file order by departmentname";
-        echo 6;
-    }else{
-        echo 7;
-        $keyword=$_GET['key'];
-        $sql = "select * from file where departmentname like '%$keyword%'";
-    }
-}else if($_GET['type']=3){
-    if(empty($_GET['key'])){
-        $sql = "select * from file order by FK_studentid";
-        echo 8;
-    }else{
-        echo 9;
-        $keyword=$_GET['key'];
-        $sql = "select * from file where HLC like '%$keyword%'";
-    }
-}
-//if(empty($_GET['key'])){
-//    $sql = "select * from file";
-//}else{
-//    $keyword=$_GET['key'];
- //   $sql = "select * from file where $";
-//}
-
-
-$query = mysql_query($sql);
-if($query&&mysql_num_rows($query)){
-    while($row = mysql_fetch_assoc($query)){
-        $data[] = $row;
-    }
-}
-?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head profile="http://gmpg.org/xfn/11">
@@ -73,7 +17,6 @@ if($query&&mysql_num_rows($query)){
     </div>
     <div class="fl_right right">
       <ul>
-
         <li><a href="#">Student Login</a></li>
         <li class="last"><a href="#">Staff Login</a></li>
       </ul>
@@ -93,9 +36,10 @@ if($query&&mysql_num_rows($query)){
     <!-- ###### -->
     <div id="topnav">
       <ul>
-        <li class="active"><a href="files.show.html">Browse</a></li>
+        <li><a href="files.show.html">Browse</a></li>
 
-        <li ><a href="index.html">Upload</a></li>
+        <li class="active"><a href="index.html">Upload</a></li>
+
       </ul>
     </div>
     <!-- ###### -->
@@ -107,69 +51,42 @@ if($query&&mysql_num_rows($query)){
     <div id="container" class="clear">
 
       <!-- ####################################################################################################### -->
-      <div id="left_column" style="width: 50px">
+      <div id="left_column" style="width: 200px">
         <div class="holder"></div>
       </div>
       <!-- ############ -->
-      <div id="content"  style="width: 720px">
-        <h1 class="title">Files</h1>
+      <div id="content" style="width: 420px">
+        <h1 class="title">Login</h1>
         <div id="respond">
-        <form method="get" action="files.show.php">
-          <fieldset>
-            <label for="type">Categories:</label>
-            <select name="type" id="type" style="width: 100px">
-              <option value="0">All</option>
-              <option value="1">Submitter</option>
-              <option value="2">Departement</option>
-              <option value="3">HLC</option>
-            </select>
-            <input type="text" id="s" name="key" value="" />
-            <input type="submit" id="x" value="Go" style="width: 40px"/>
-          </fieldset>
-        </form>
-          <br/>
-        <table summary="Summary Here" cellpadding="0" cellspacing="0" >
-          <thead>
-          <tr>
-            <th>Filename</th>
-            <th>Department</th>
-            <th>Document Year</th>
-            <th>HLC Category</th>
-            <th>Justification</th>
-            <th>Upload Time</th>
-          </tr>
-          </thead>
-          <?php
-		    if(empty($data)){
-		    	echo "No any files in database.";
-		    }else{
-			    foreach($data as $value){
-	      ?>
-          <tbody>
-            <tr class="light">
-              <td><a href="<?php echo $value['filename']?>"><?php echo $value['filename']?></a></td>
-              <td><?php echo $value['departmentname']?></td>
-              <td><?php echo $value['docyear']?></td>
-              <td><?php echo $value['HLC']?></td>
-              <td><?php echo $value['justification']?></td>
-              <td><?php echo $value['uploadtime']?></td>
-            </tr>
-            <?php
-			}
-		}
-	?>
-          </tbody>
-        </table>
+
+
+          <form action="#" method="post" >
+            <p>
+              <label for="id">StudentID </label>
+              <input type="text" name="id" id="id" value="" size="22" />
+            </p>
+            <p>
+              <label for="password">Password </label>&nbsp;
+              <input type="password" name="password" id="password" value="" size="22" />
+            </p>
+
+            <p>
+              <br/><br/>
+              <input name="submit" type="submit" id="submit" value="Login" /><a href="https://password.umsystem.edu/forgot/"> Forget Password?</a>
+              <br/><br/><br/><br/><br/><br/><br/><br/>
+            </p>
+          </form>
+        </div>
       </div>
       <!-- ############ -->
-      <div id="right_column">
+      <div id="right_column" >
         <div class="holder">
         </div>
 
       </div>
+
       <!-- ####################################################################################################### -->
-      </div>
-      </div>
+    </div>
   </div>
 </div>
 <!-- ####################################################################################################### -->
@@ -185,9 +102,9 @@ if($query&&mysql_num_rows($query)){
           5100 Rockhill Rd<br />
           Kansas City<br />
           MO 64110<br />
-          <br />
-          Tel:816-235-1000<br />
-          Email: <a href="#">argumentwriter@umkc.edu</a>
+        <br />
+        Tel:816-235-1000<br />
+        Email: <a href="#">argumentwriter@umkc.edu</a>
         </address>
       </div>
       <div class="fl_right">
