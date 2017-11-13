@@ -31,7 +31,7 @@ You can view this page here: https://github.com/eldq5d/2017-UMKC-Hackathon---Ama
 3. The third part of the application is the final table which will display all the submissions. This table will be sortable by different categories such as submitter name, department, HLC category, etc.
 
 
-You can view this page here: https://github.com/eldq5d/2017-UMKC-Hackathon---Amateurs/blob/master/argumentwriterfinal/files.show.html
+You can view this page here: https://github.com/eldq5d/2017-UMKC-Hackathon---Amateurs/blob/master/argumentwriterfinal/files.show.php
 
 
 <strong>BONUS - if we have time</strong>
